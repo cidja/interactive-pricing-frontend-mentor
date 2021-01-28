@@ -16,9 +16,49 @@
     --dark-desatured-blue: hsl(227, 35%, 25%);
     --manrope: font-familly:'Manrope', sans-serif;
 }
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--light-grayish-blue);
+}
+
+/*title section*/
+.title{
+    font-weight: 800;
+}
+
+.container{
+    padding: 20px 80px;
+    margin: 0% 25%;
+    background-color: var(--white);
+}
+/*pagesmonthcontainer*/
+.pagesmonthcontainer{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+}
+
+/*containermonthly*/
+.containermonthly{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid salmon;
+}
+
+/*liststartcontainer*/
+.liststartcontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 
-@media screen and (max-width 375px){
-    /* for smartphone */
+@media screen and (max-width : 375px){
+      /* for smartphone */
+    body{
+        background-image: var(--light-red);
+        }
+  
+    
 
 }
